@@ -42,6 +42,7 @@
 <img src="/images/mentor_follow_complete.png" style="width: 500px; height: 350px" />
 <img src="/images/mentor_follow_cancel.png" style="width: 500px; height: 350px" />
 <br />
+
 - 멘토 팔로우 기능  : Ajax 이용하여 새로고침 없이 팔로우 여부, 팔로워 수 즉각 반영되도록 구현
 
 <br />
