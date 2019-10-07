@@ -1,8 +1,15 @@
 # KH Academy Final Project : SMS
 ## About Project
-- IT취업준비생을 위한 소셜 멘토링 시스템
+<img src="/imges/KakaoTalk_20191004_123754607.png" style="width: 500px; height: 350px" />
+<br />
+- IT취업준비생과 현직자를 연결시켜주는 소셜 멘토링 시스템
 
 ## 주요 기능
+- '멘토 찾기'페이지를 통해 원하는 멘토링 분야의 멘토 검색
+- 멘토-멘티, 멘토-멘토 간 팔로우 기능
+- 1:1 질문 답변 기능
+- 멘토-멘티 간 오프라인 모임을 위한 모임 서비스
+- 멘토의 전문적인 멘토링 컨텐츠를 확인할 수 있는 에세이 게시판
 
 ## 개발 환경
  - 운영체제 : Windows10 64bit
@@ -11,13 +18,24 @@
  - Language : Java, SQL, CSS, HTML, Javascript(Ajax, Jquery)
 
 ## 구현 기능
-- 멘토 찾기 : 멘토로 지원하여 등록된 멘토의 리스트를 한 눈에 볼 수 있고 유형별로 멘토를 찾을 수 있다.
+<img src="/imges/mentor_list.png" style="width: 500px; height: 350px" />
+- 멘토 찾기 페이지 : 멘토로 지원하여 등록된 멘토 정보를 조회할 수 있다.
+<img src="/imges/mentor_category.png" style="width: 500px; height: 350px" />
+- 멘토링 카테고리 별 조회 기능
+<img src="/imges/mentor_follow.png" style="width: 500px; height: 350px" />
+<img src="/imges/mentor_follow_complete.png" style="width: 500px; height: 350px" />
+<img src="/imges/mentor_follow_cancel.png" style="width: 500px; height: 350px" />
+- 멘토 팔로우 기능  : Ajax 이용하여 새로고침 없이 팔로우 여부, 팔로워 수 즉각 반영되도록 구현
+<img src="/imges/mentor_question.png" style="width: 500px; height: 350px" />
+- 1:1 질문하기 : Modal창 처리, 질문한 내용 My Q&A 페이지에 저장
 
-- 멘토 팔로우  : 내가 좋아하는 멘토를 팔로우 또는 취소할수 있다.
+<img src="/imges/mentor_qna_list.png" style="width: 500px; height: 350px" />
+- My Q&A 페이지: 멘티는 내가 한 질문, 멘토는 내가 한 질문과 받은 질문 확인 가능
 
-- 멘토에게 질문하기 : 자신이 원하는 멘토에게 질문을 할 수 있다.
+<img src="/imges/mentor_qna_view.png" style="width: 500px; height: 350px" />
+- 멘토는 멘티 or 다른 멘토가 질문한 내용에 대해 댓글로 답변 등록 가능
+-> 댓글 시스템으로 일회성에서 그치지 않고 멘토-멘티 간 지속적인 커뮤니케이션 가능
 
-- 멘토의 답변 : 멘토는 자신이 받은 질문에 답변글을 작성 할 수 있다.
 
 
 ## Contribute
