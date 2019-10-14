@@ -20,7 +20,7 @@
  - 운영체제 : Windows10 64bit
  - 개발도구 : Spring Framework, JDK 1.8, SQL Developer
  - DBMS : Oracle
- - Language : Java, SQL, CSS, HTML, Javascript(Ajax, Jquery)
+ - Language : Java, Spring, mybatis, CSS, HTML, Javascript(Ajax, Jquery)
 
 <br />
 
